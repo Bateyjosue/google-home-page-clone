@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:arial;
+}
+
+body {
+  background: #202124;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #8ab4f8;
+  font-size:13px;
+}
+
+.buttons {
+  display:none;
+}
