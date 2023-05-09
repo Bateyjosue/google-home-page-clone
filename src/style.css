@@ -79,3 +79,33 @@ main .logo img {
   width: 50%;
   height: fit-content;
 } 
+
+main .input__search {
+  width: 100%;
+  border: solid 1px gray;
+  border-radius: 15rem;
+  padding: .3rem .5rem;
+  display: flex;
+  gap:.5rem;
+}
+
+main .input__search input{
+  flex-grow: 1;
+  flex-basis: 443px;
+  border: none;
+  outline: none;
+  background: transparent;
+  caret-color: gray;
+  color: #FFF;
+}
+
+main .input__search #mic{
+  display: none;
+}
+
+main .input__search #camera{
+  background: -webkit-linear-gradient(360deg,blue,green, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
