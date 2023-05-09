@@ -8,6 +8,8 @@
 body {
   background: #202124;
   color: #FFF;
+  padding: .5rem .8rem;
+
 }
 
 a {
@@ -18,4 +20,44 @@ a {
 
 .buttons {
   display:none;
+}
+
+.active {
+  color: #8ab4f8;
+  text-underline-offset: .8rem;
+  text-decoration-line: underline;
+  text-decoration-thickness:.2rem ;
+}
+
+header ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+header .nav .gmail, 
+header .nav .images{
+  display: none;
+}
+
+.mobile ul {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.mobile ul li{
+  font-weight: bold;
+}
+
+.account ul {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.account ul .user span {
+  /* min-width: 24px;
+  min-height: 24px; */
+  font-size: 2.5rem;
 }
