@@ -88,7 +88,8 @@ main .logo img {
 } 
 
 main .input__search {
-  width: 100%;
+  max-width: 100%;
+  min-width: 130px;
   border: solid 1px gray;
   border-radius: 15rem;
   padding: .3rem .5rem;
