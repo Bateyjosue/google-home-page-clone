@@ -261,7 +261,7 @@ footer .far__bar {
 
   .buttons {
     display:block;
-    margin: 2rem;
+    margin: 1.2rem;
   }
 
   .buttons a {
@@ -271,4 +271,19 @@ footer .far__bar {
     padding: .7rem;
     margin: .3rem;
   }
+
+  main .langs {
+    flex-grow:1;
+    font-size: .8rem;
+    color: #ffffffaa;
+
+  }
+  
+  main .langs a{
+    margin: 0 .3rem;
+  }
+  main .langs a:hover{
+    text-decoration: underline;
+  }
+  
 }
