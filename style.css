@@ -189,6 +189,11 @@ footer .far__bar {
 }
 
 @media screen and (min-width:  780px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
   header ul{
   display: flex;
   list-style-type: none;
@@ -285,5 +290,48 @@ footer .far__bar {
   main .langs a:hover{
     text-decoration: underline;
   }
+
+  footer {
+    background: #00000069;
+  }
+
+  footer .far__bar {
+    display: none;
+  }
+
+  footer .country {
+    border-bottom:1px solid #303335;
+  }
+
+  .bottom-nav {
+    border:none ;
+  }
+
+  .bottom-nav ul{
+  flex-direction: row;
+  justify-content: space-between;
+
+  }
+
+
+  .nav__links__footer {
+    order: 0;
+  }
+  
+  .nav__links__footer ul li:nth-child(3){
+    order:0;
+  }
+
+  .settings__links .links li:nth-child(3) {
+    order:0;
+
+  }
+
+
+  .how__search_works {
+    display: block;
+  }
+
+
   
 }
