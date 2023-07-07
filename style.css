@@ -186,3 +186,54 @@ footer .far__bar {
 .how__search_works {
   display: none;
 }
+
+@media screen and (min-width:  780px) {
+  header ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
+}
+
+  .mobile {
+    display: none;
+  }
+
+  header .nav .gmail, 
+  header .nav .images{
+    display: block;
+    font-size: .9rem;
+    transition: all 400ms ease-in-out;
+  }
+
+  header .nav .gmail:hover, 
+  header .nav .images:hover{
+    text-decoration: underline;
+    
+  }
+
+  header ul .account ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+
+  .account ul .notification {
+    display: none;
+  }
+
+  .account ul .apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 50%;
+  }
+
+  .account ul .apps:hover {
+    background: #6a6a6a63;
+    
+  }
+}
