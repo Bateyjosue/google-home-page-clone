@@ -74,7 +74,8 @@ main {
 }
 
 main .logo {
-  width: 272px;
+  min-width: 272px;
+  max-width: 272px;
   height: 92px;
   display: flex;
   justify-content: center;
@@ -236,4 +237,27 @@ footer .far__bar {
     background: #6a6a6a63;
     
   }
+
+  main .logo img {
+    width: 100%;
+    height: fit-content;
+  } 
+
+  main .input__search {
+    width: 50%;
+    padding: .8rem;
+  }
+
+  main .input__search #mic{
+    display: block;
+  }
+
+  main .input__search #mic{
+    background: -webkit-linear-gradient(360deg,blue,green, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+  
 }
