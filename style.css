@@ -259,5 +259,16 @@ footer .far__bar {
     font-weight: bold;
   }
 
-  
+  .buttons {
+    display:block;
+    margin: 2rem;
+  }
+
+  .buttons a {
+    color: #FFF;
+    border-radius: 4px;
+    background: #4f4f4f4f;
+    padding: .7rem;
+    margin: .3rem;
+  }
 }
