@@ -318,6 +318,7 @@ footer .far__bar {
     order: 0;
   }
   
+  
   .nav__links__footer ul li:nth-child(3){
     order:0;
   }
@@ -332,6 +333,14 @@ footer .far__bar {
     display: block;
   }
 
+  footer  a{
+    transition: all 400ms ease-in;
+    margin-right: .5rem;
+    font-size: .9rem;
+  }
 
+  footer  a:hover{
+    text-decoration: underline;
+  }
   
 }
